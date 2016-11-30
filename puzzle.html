@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Puzzle Game</title>
+	<link rel="stylesheet" type="text/css" href="puzzle.css">
+	<script src="puzzle.js"></script>
+</head>
+
+<body>
+	
+<center>
+	<h1>15 Puzzle Game</h1>
+		<br>
+	<h3>By Shelsea Henry</h2>
+		<br>
+	
+	<h2>Solve the 15 puzzle game by moving the tiles to sort the numbers from 1 to 15.</h2>
+	
+	
+	
+	<table id="table">
+  <tr>
+   <td onclick="swap(1)"><span id = "1">5</span></td> 
+   <td onclick="swap(2)"><span id = "2">10</span></td> 
+   <td onclick="swap(3)"><span id = "3">15</span></td>
+   <td onclick="swap(4)"><span id = "4">4</span></td>
+  </tr>
+  
+  <tr> 
+   <td onclick="swap(5)"><span id = "5">9</span></td> 
+   <td onclick="swap(6)"><span id = "6">11</span></td> 
+   <td onclick="swap(7)"><span id = "7">3</span></td>
+   <td onclick="swap(8)"><span id = "8">14</span></td> 
+  </tr>
+  
+  <tr> 
+   <td onclick="swap(9)"><span id = "9">1</span></td> 
+   <td onclick="swap(10)"><span id = "10">7</span></td> 
+   <td onclick="swap(11)"><span id = "11">12</span></td>
+   <td onclick="swap(12)"><span id = "12">2</span></td>
+  </tr>
+ 
+  <tr>
+   <td onclick="swap(13)"><span id = "13">6</span></td> 
+   <td onclick="swap(14)"><span id = "14">13</span></td> 
+   <td onclick="swap(15)"><span id = "15">8</span></td> 
+   <td onclick="swap(16)"><span id = "16"></span></td>
+  </tr>
+	</table>
+	
+	<br>
+	<br>
+
+	<input onclick = "shuffleGame()" type="button" id="newGame" value="Shuffle">
+	  
+	</center>
+
+
+
+</body>
+</html>
